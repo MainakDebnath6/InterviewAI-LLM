@@ -1,0 +1,14 @@
+node_modules/
+.env
+
+*.zip
+*.deb
+*.rpm
+*.tar
+*.gz
+
+dist/
+build/
+
+.vscode/
+
