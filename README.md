@@ -1,256 +1,397 @@
 <div align="center">
 
-# InterviewIQ
+# 🚀 InterviewIQ
 
-### AI-Powered Mock Interview Platform
+### AI-Powered Mock Interview Platform for Students & Job Seekers
 
-Generate personalized interview questions, practice realistic interviews, and receive AI-generated feedback tailored to your resume.
+Practice interviews, get AI-generated feedback, track progress, and improve your interview performance with real-time analytics.
 
-<p>
-  <a href="https://interviewai-client-f8pu.onrender.com/">Live Demo</a>
-</p>
+[![React](https://img.shields.io/badge/React-19-blue?logo=react)]()
+[![NodeJS](https://img.shields.io/badge/Node.js-Backend-green?logo=node.js)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)]()
+[![JWT](https://img.shields.io/badge/Auth-JWT-orange)]()
+[![Razorpay](https://img.shields.io/badge/Payments-Razorpay-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-red)]()
 
-</div>
+### 🌐 Live Demo
 
-<br>
-
-<p align="center">
-  <img src="./Screenshots/interview.png" width="750">
-</p>
-
----
-
-## About
-
-InterviewIQ is an AI-powered interview preparation platform that creates personalized interview experiences based on a candidate's resume.
-
-The platform analyzes resumes, extracts skills and project information, generates role-specific interview questions, conducts AI-driven interview sessions, and provides detailed performance reports to help users prepare for real-world interviews.
-
----
-
-## Key Highlights
-
-* Resume-aware interview generation
-* Technical and HR interview modes
-* Voice-enabled interview experience
-* AI-powered performance evaluation
-* Detailed PDF reports
-* Interview history tracking
-* Secure authentication system
-* Credit-based access model
-
----
-
-## Product Preview
-
-<table>
-<tr>
-
-<td align="center">
-<img src="./Screenshots/Resume_analyzed.png" width="420"><br><br>
-<b>Resume Analysis</b>
-</td>
-
-<td align="center">
-<img src="./Screenshots/report.png" width="420"><br><br>
-<b>Performance Report</b>
-</td>
-
-</tr>
-</table>
-
-<br>
-
-<p align="center">
-  <img src="./Screenshots/interview.png" width="750">
-</p>
-
-<p align="center">
-<b>AI Interview Session</b>
-</p>
-
----
-
-## How It Works
-
-### 1. Upload Resume
-
-Upload a PDF resume and let the platform analyze your profile.
-
-### 2. Skill Extraction
-
-InterviewIQ identifies:
-
-* Skills
-* Technologies
-* Projects
-* Experience Level
-
-### 3. Interview Generation
-
-AI generates personalized questions based on the candidate profile.
-
-### 4. Interview Session
-
-Practice through an interactive interview experience with voice and text support.
-
-### 5. Performance Evaluation
-
-Responses are evaluated for:
-
-* Technical Accuracy
-* Communication Quality
-* Problem Solving
-* Answer Completeness
-
-### 6. Detailed Feedback
-
-Receive a comprehensive performance report with actionable suggestions.
-
----
-
-## Tech Stack
-
-<div align="center">
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat\&logo=react)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat\&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat\&logo=tailwindcss)
-
-### Backend
-
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat\&logo=node.js)
-![Express](https://img.shields.io/badge/Express-000000?style=flat\&logo=express)
-
-### Database
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat\&logo=mongodb)
-
-### AI
-
-![OpenRouter](https://img.shields.io/badge/OpenRouter-000000?style=flat)
-![LLMs](https://img.shields.io/badge/LLMs-Powered-blue)
-
-### Services
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat\&logo=amazonaws)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat)
+https://whimsical-peony-203dfa.netlify.app/
 
 </div>
 
 ---
 
-## Architecture
+# 📖 Overview
 
-```text
-                User
-                  │
-                  ▼
-          React Frontend
-                  │
-                  ▼
-          Express Backend
-                  │
-      ┌───────────┼───────────┐
-      ▼           ▼           ▼
- Authentication  AI Engine  Reports
-      │           │           │
-      └──────┬────┴────┬──────┘
-             ▼         ▼
+InterviewIQ is a full-stack AI-powered interview preparation platform that helps students and job seekers prepare for technical and HR interviews.
 
-         MongoDB   OpenRouter
+The platform generates personalized interview questions, evaluates answers, provides detailed performance reports, and tracks interview history to help users improve continuously.
+
+Designed using the MERN Stack with secure authentication, analytics dashboards, PDF report generation, and payment integration.
+
+---
+
+# ✨ Features
+
+## 🤖 AI Mock Interviews
+
+- Dynamic interview question generation
+- Technical and HR interview rounds
+- Personalized interview flow
+- Realistic interview experience
+
+## 📄 Resume-Based Question Generation
+
+- Upload resume
+- Extract skills automatically
+- Generate role-specific questions
+
+## 📊 Performance Analytics
+
+- Communication Score
+- Technical Score
+- Confidence Score
+- Overall Rating
+- AI Feedback & Suggestions
+
+## 📈 Progress Tracking
+
+- Interview History
+- Previous Reports
+- Performance Trends
+- Improvement Analysis
+
+## 💳 Premium Features
+
+- Razorpay Payment Integration
+- Credit-Based Interview System
+- Premium Interview Access
+
+## 🔒 Secure Authentication
+
+- JWT Authentication
+- Protected Routes
+- Secure API Endpoints
+- Password Encryption
+
+---
+
+# 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+
+A[User]
+B[React Frontend]
+C[Node.js Backend]
+D[(MongoDB)]
+E[AI Interview Engine]
+F[Resume Parser]
+G[PDF Generator]
+H[Razorpay]
+
+A --> B
+B --> C
+
+C --> D
+C --> E
+C --> F
+C --> G
+C --> H
 ```
 
 ---
 
-## Project Structure
+# ⚙️ Tech Stack
 
-```text
-InterviewAI
+## Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- Redux Toolkit
+- React Router
+
+## Backend
+
+- Node.js
+- Express.js
+- JWT Authentication
+- REST APIs
+
+## Database
+
+- MongoDB
+- Mongoose ODM
+
+## Integrations
+
+- Razorpay
+- PDF.js
+- jsPDF
+
+## Deployment
+
+- Netlify
+- Render
+
+---
+
+# 📊 Project Flow
+
+```mermaid
+sequenceDiagram
+
+participant User
+participant Frontend
+participant Backend
+participant AI
+participant Database
+
+User->>Frontend: Start Interview
+
+Frontend->>Backend: Create Session
+
+Backend->>AI: Generate Questions
+
+AI-->>Backend: Questions
+
+Backend-->>Frontend: Interview Begins
+
+User->>Frontend: Submit Answers
+
+Frontend->>Backend: Evaluate Responses
+
+Backend->>AI: Analyze Answers
+
+AI-->>Backend: Scores & Feedback
+
+Backend->>Database: Save Report
+
+Database-->>Backend: Success
+
+Backend-->>Frontend: Display Analytics
+```
+
+---
+
+# 📈 User Journey
+
+```mermaid
+graph LR
+
+A[Register/Login]
+--> B[Upload Resume]
+
+B --> C[Generate Interview]
+
+C --> D[Answer Questions]
+
+D --> E[AI Evaluation]
+
+E --> F[Performance Report]
+
+F --> G[Track Progress]
+
+G --> H[Improve Skills]
+```
+
+---
+
+# 📁 Project Structure
+
+```bash
+InterviewIQ
 │
 ├── client
+│   ├── public
 │   ├── src
-│   ├── components
-│   ├── pages
-│   └── ...
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── redux
+│   │   ├── hooks
+│   │   ├── services
+│   │   └── utils
 │
 ├── server
 │   ├── controllers
 │   ├── routes
-│   ├── models
 │   ├── middleware
-│   └── ...
-│
-├── Screenshots
+│   ├── models
+│   ├── services
+│   ├── utils
+│   └── config
 │
 └── README.md
 ```
 
 ---
 
-## Local Setup
+# 🚀 Installation
 
-Clone the repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/MainakDebnath6/InterviewAI.git
+git clone https://github.com/yourusername/InterviewIQ.git
+
+cd InterviewIQ
 ```
 
-Install frontend dependencies
+## Frontend Setup
 
 ```bash
 cd client
+
 npm install
+
 npm run dev
 ```
 
-Install backend dependencies
+## Backend Setup
 
 ```bash
 cd server
+
 npm install
-npm start
+
+npm run dev
 ```
 
-Create a `.env` file
+---
+
+# 🔑 Environment Variables
+
+## Server
 
 ```env
-MONGODB_URI=
+PORT=5000
+
+MONGO_URI=
+
 JWT_SECRET=
-OPENROUTER_API_KEY=
+
 RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
+
+RAZORPAY_SECRET=
+```
+
+## Client
+
+```env
+VITE_API_URL=
 ```
 
 ---
 
-## Future Improvements
+# 📊 Database Design
 
-* Video Interview Support
-* AI Interview Avatars
-* Company-Specific Interview Tracks
-* Real-Time Interview Coaching
-* Multi-Language Support
-* Advanced Analytics Dashboard
+```mermaid
+erDiagram
+
+USER ||--o{ INTERVIEW : creates
+USER ||--o{ PAYMENT : makes
+
+INTERVIEW ||--o{ REPORT : generates
+
+USER {
+ string _id
+ string name
+ string email
+ string password
+}
+
+INTERVIEW {
+ string id
+ string role
+ string difficulty
+ date createdAt
+}
+
+REPORT {
+ string id
+ number score
+ string feedback
+}
+
+PAYMENT {
+ string id
+ number amount
+ string status
+}
+```
 
 ---
 
-## Author
+# 🔒 Security Features
 
-**Mainak Debnath**
-
-Portfolio
-https://whimsical-peony-203dfa.netlify.app/
-
-LinkedIn
-https://linkedin.com/in/mainak-debnath01
-
-Email
-[mainakdebnath13@gmail.com](mailto:mainakdebnath13@gmail.com)
+- JWT Authentication
+- Protected Routes
+- Password Hashing
+- API Validation
+- Secure Payment Verification
+- Environment Variable Protection
+- CORS Configuration
 
 ---
 
-If you found this project interesting, consider giving it a star.
+# 🎯 Key Learning Outcomes
+
+This project demonstrates:
+
+- Full Stack Development
+- REST API Design
+- Authentication & Authorization
+- Database Modeling
+- Payment Gateway Integration
+- AI-Powered Applications
+- State Management
+- Deployment & DevOps
+
+---
+
+# 🚀 Future Improvements
+
+- Voice-Based Interviews
+- AI Avatar Interviewer
+- Real-Time Coding Interviews
+- ATS Resume Checker
+- Company-Specific Interview Sets
+- Multi-Language Support
+- AI Career Roadmap Generator
+
+---
+
+# 👨‍💻 Author
+
+## Mainak Debnath
+
+B.Tech CSE Student  
+Full Stack Developer | MERN Stack | AI/ML Enthusiast
+
+### Connect With Me
+
+- LinkedIn
+- GitHub
+- Portfolio
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+```bash
+⭐ Star this repository
+🍴 Fork this project
+🚀 Contribute to InterviewIQ
+```
+
+---
+
+<div align="center">
+
+### "Practice Smarter. Interview Better. Get Hired."
+
+⭐ Star the Repository if you liked the project.
+
+</div>
