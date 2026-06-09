@@ -15,7 +15,7 @@ Practice interviews, get AI-generated feedback, track progress, and improve your
 
 ### 🌐 Live Demo
 
-https://whimsical-peony-203dfa.netlify.app/
+https://interviewai-client-f8pu.onrender.com
 
 </div>
 
