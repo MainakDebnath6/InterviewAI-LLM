@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 InterviewAIM
+# 🚀 InterviewAI-LLM
 
 ### AI-Powered Mock Interview Platform for Students & Job Seekers
 
