@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 InterviewIQ
+# 🚀 InterviewAIM
 
 ### AI-Powered Mock Interview Platform for Students & Job Seekers
 
